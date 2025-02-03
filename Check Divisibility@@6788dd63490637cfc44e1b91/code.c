@@ -7,6 +7,6 @@ int main() {
     }else{
         printf("Not Divisible");
     }
-    printf("%d");
+   
     return 0;
 }

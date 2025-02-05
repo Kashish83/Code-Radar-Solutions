@@ -12,6 +12,6 @@ int main() {
         printf("Invalid input");
     }
 
-    printf("%s", welcome());
+    
     return 0;
 }

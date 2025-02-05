@@ -1,4 +1,4 @@
-#include <stdio.h>6
+#include <stdio.h>
 int main() {
     char grade;
     scanf("%c",&grade);

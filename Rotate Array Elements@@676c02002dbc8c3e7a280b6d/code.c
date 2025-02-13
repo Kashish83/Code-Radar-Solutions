@@ -7,7 +7,7 @@ int main(){
     }
     scanf("%d",&k);
     for(int k=N; k<N-1; k++){
-        printf("%d",j);
+        printf("%d",k);
     }
     scanf("%d",&l);
     for(int l=0; l<N-2; l++){

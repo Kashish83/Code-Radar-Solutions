@@ -17,4 +17,5 @@ int main(){
      else if(b>0){
         printf("Not Sorted");
     }
+    return 0;
 }

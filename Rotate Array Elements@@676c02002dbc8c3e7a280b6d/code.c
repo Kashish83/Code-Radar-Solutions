@@ -8,8 +8,8 @@ int main(){
     }
     int k;
     scanf("%d",&k);
-    for(int k=N-k; k<N; k++){
-        printf("%d \n",arr[k]);
+    for(int j=N-k; j<N; j++){
+        printf("%d \n",arr[j]);
     }
     for(int l=0; l<N-k; l++){
         printf("%d \n",arr[l]);

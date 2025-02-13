@@ -5,10 +5,10 @@ int main(){
     int arr[N];
     for(int i=0; i<N; i++){
         if(N>N-1){
-            printf("Sorted");
+            return Sorted;
         }
         else{
-            printf("Not Sorted");
+           return Not Sorted;
         }
     }
 }

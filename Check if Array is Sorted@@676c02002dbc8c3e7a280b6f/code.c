@@ -18,7 +18,7 @@ int main(){
         }
         
     }
-    if((b>0 && a==0 )||(d==N-1)){
+    if((b>0 && a==0 )||(d==N)){
         printf("Sorted");
     }
     else {

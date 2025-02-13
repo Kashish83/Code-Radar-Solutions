@@ -8,11 +8,11 @@ int main(){
     }
     int k=a[0];
     for(int j=1; j<N; j++){
-        if(k>a[j+1]){
+        if(k>a[j]){
             g++;
         }
         else{
-            k=a[j+1];
+            k=a[j];
         }
     }
     if(g>0){

@@ -1,13 +1,14 @@
 #include<stdio.h>
 int main(){
-    int N,a,b;
+    int N,a=0,b=0;
     scanf("%d",&N);
     int arr[N];
     for(int i=0; i<N; i++){
-        if(N>=N-1){
+        if(arr[i]>=arr[i+1]){
            a++;
+           break;
         }
-        else if(N<=N-1){
+        else {
             b++;
         }
     }

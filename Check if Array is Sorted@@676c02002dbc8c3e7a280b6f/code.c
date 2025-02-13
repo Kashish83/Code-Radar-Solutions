@@ -8,14 +8,12 @@ int main(){
            a++;
            break;
         }
-        else {
-            b++;
-        }
+        
     }
     if(a>0){
         printf("Sorted");
     }
-     else if(b>0){
+    else {
         printf("Not Sorted");
     }
     return 0;

@@ -7,14 +7,14 @@ int main(){
         if(N>=N-1){
            a++;
         }
-        else if(N<=N-1){
+        else{
             b++;
         }
     }
     if(a>0){
         printf("Sorted");
     }
-    else{
+    if(b>0){
         printf("Not Sorted");
     }
 }

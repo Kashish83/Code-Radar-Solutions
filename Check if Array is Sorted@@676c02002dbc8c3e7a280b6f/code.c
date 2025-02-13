@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int N,kG=0;
+    int N,k,g=0;
     scanf("%d",&N);
     int a[N];
     for(int i=0;i<N;i++){

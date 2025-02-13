@@ -13,5 +13,5 @@ int main(){
     for(int l=0; l<N-2; l++){
         printf("%d",l);
     }
+    return 0;
 }
-   return0;

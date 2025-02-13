@@ -14,7 +14,7 @@ int main(){
     if(a>0){
         printf("Sorted");
     }
-    if(b>0){
+     else if(b>0){
         printf("Not Sorted");
     }
 }

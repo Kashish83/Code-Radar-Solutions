@@ -7,7 +7,7 @@ int main(){
         if(N>=N-1){
            a++;
         }
-        else{
+        else if(N<=N-1){
             b++;
         }
     }

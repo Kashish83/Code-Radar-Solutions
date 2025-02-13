@@ -6,7 +6,7 @@ int main(){
     for(int i=0;i<N;i++){
         scanf("%d",&arr[i]);
     }
-    int k=a[0];
+    k=a[0];
     for(int j=1; j<N; j++){
         if(k>a[j]){
             g++;

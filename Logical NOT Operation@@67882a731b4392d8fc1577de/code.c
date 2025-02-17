@@ -2,11 +2,12 @@
 int main(){
     int num1;
     scanf("%d",&num);
-        if(num1!<0){
+        if(num!<0){
             printf("False");
-        }else[
+        }else{
             printf("True");
-        ]
+        }
+        
 
     
 }

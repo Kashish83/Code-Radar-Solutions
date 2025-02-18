@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
     char ch;
-    scanf("%c",&ch){
+    scanf("%c",&ch);
         if(isdigit(ch)){
             printf("Digit\n");
         }else if(isalpha(ch)){
@@ -17,4 +17,3 @@ int main(){
                 printf("Special Character\n");
             }
     }
-}

@@ -8,7 +8,7 @@ int main(){
     }
     int k=a[0];
     for(int j=0; j<N; j++){
-        if(k<a[i]){
+        if(k<a[j]){
             max++;
         }else{
             min++;

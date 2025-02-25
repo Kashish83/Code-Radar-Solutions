@@ -9,7 +9,7 @@ int main(){
     for(int j=0; j<a[i]; j++){
         if(a[i]>a[i-1]){
             if(a[i]>a[i+1]){
-                print("%d",a[i]);
+                printf("%d",a[i]);
             }
         }
     }

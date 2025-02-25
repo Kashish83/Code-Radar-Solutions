@@ -14,7 +14,12 @@ int main(){
             min++;
         }
     }
-    printf("%d %d",max,min);
+    if(max>0){
+        printf("%d",max);
+    }else{
+        printf("%d",min);
+    }
+   
     
     return 0;
     

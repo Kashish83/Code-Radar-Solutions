@@ -11,9 +11,11 @@ int main(){
         if(k<a[i]){
             max++;
         }else{
-            min++
+            min++;
         }
     }
+    printf("%d",min);
+    printf("%d",max);
     return 0;
     
 }

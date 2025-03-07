@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int N,j,i;
+    int N,j,i,g=0;
     scanf("%d",&N);
     int a[N];
     for(int i=0; i<N; i++){
@@ -9,11 +9,14 @@ int main(){
     for(int j=1; j<a[i]; j++){
         if(a[i]>a[i-1]){
             if(a[i]>a[i+1]){
-                printf("%d",a[i]);
+                g++;
             }
         }else{
-            return -1;
+            g--;
         }
+    }
+    if(g>0){
+      printf()
     }
     return 0;
 

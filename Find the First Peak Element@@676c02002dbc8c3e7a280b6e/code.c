@@ -6,19 +6,20 @@ int main(){
     for(int i=0; i<N; i++){
         scanf("%d",&a[i]);
     }
+    if(N==1){
+        printf("%d\n",a[0]);
+    }if(arr[0]>arr[1]){
+        printf("%d\n",a[0])
+    }
     for(int j=1; j<a[i]; j++){
         if(a[i]>a[i-1]){
             if(a[i]>a[i+1]){
-                g++;
+                printf("%d\n",a[i])
             }
-        }else{
-            g--;
-        }
+        
     }
-    if(g>0){
-       printf("%d \n",a[i]);
-    }else{
-        return -1;
+    if(a[N-1]>a[N-2]){
+       printf("%d \n",a[N-1]);
     }
     return 0;
 

@@ -14,11 +14,7 @@ int main(){
     for(int j=1; j<a[i]; j++){
         if(a[i]>a[i-1]){
             if(a[i]>a[i+1]){
-                printf("%d\n",a[i]);
-            }else{
-                return -1
-            }
-        
+                printf("%d\n",a[i]);       
     }
     if(a[N-1]>a[N-2]){
        printf("%d \n",a[N-1]);

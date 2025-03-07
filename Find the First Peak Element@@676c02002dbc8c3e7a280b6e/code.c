@@ -16,7 +16,7 @@ int main(){
         }
     }
     if(g>0){
-      printf()
+       printf("%d \n",arr[i])
     }
     return 0;
 

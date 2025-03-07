@@ -16,7 +16,7 @@ int main(){
             if(a[i]>a[i+1]){
                 printf("%d\n",a[i]);
             }else{
-                return -1;
+                return -1
             }
         
     }

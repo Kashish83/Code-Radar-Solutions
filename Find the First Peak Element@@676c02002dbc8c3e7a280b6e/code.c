@@ -9,12 +9,12 @@ int main(){
     if(N==1){
         printf("%d\n",a[0]);
     }if(a[0]>a[1]){
-        printf("%d\n",a[0])
+        printf("%d\n",a[0]);
     }
     for(int j=1; j<a[i]; j++){
         if(a[i]>a[i-1]){
             if(a[i]>a[i+1]){
-                printf("%d\n",a[i])
+                printf("%d\n",a[i]);
             }
         
     }

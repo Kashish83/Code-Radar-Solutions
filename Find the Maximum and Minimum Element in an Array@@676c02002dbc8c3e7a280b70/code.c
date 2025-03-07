@@ -1,24 +1,24 @@
 #include<stdio.h>
 int main(){
-    int N,max=0,min=0,j;
+    int N,j;
+    int max=a[0];
+    int min=a[0];
     scanf("%d",&N);
     int a[N];
     for(int i=0; i<a[N];i++){
         scanf("%d",&a[i]);
     }
-    int k=a[0];
-    for(int j=0; j<N; j++){
-        if(k<a[j]){
-            max++;
-        }else{
-            min++;
-        }
-    }
-    if(max>0){
-        printf("%d",max);
+    if(a[i]>max){
+       max=a[i]
     }else{
-        printf("%d",min);
+        return max;
     }
+    if(a[i]<min){
+        printf("%d\n", a[i]);
+    }else{
+        return min;
+    }
+
    
     
     return 0;

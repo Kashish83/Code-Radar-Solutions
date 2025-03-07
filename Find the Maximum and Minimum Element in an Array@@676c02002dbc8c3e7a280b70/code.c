@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int N,j;
+    int N,i;
     int max=a[0];
     int min=a[0];
     scanf("%d",&N);

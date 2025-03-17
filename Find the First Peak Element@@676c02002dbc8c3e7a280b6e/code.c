@@ -25,7 +25,7 @@ int main(){
        printf("%d \n",a[N-1]);
     
     }
-    printf("-1\n");
+    
     
     return 0;
 

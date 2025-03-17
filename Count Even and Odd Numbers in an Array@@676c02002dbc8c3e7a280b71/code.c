@@ -17,7 +17,8 @@ int main(){
         }
         
     }
-    printf("%d",even);
     printf("%d",odd);
+    printf(" %d",even);
+    
 
 }

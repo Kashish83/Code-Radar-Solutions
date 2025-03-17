@@ -17,11 +17,13 @@ int main(){
         if (a[i] > a[i - 1] && a[i] > a[i + 1]) {
             printf("%d\n", a[i]);
         }
+        return 0;
     }
 
     
     if(a[N-1]>a[N-2]){
        printf("%d \n",a[N-1]);
+    
     }
     return 0;
 

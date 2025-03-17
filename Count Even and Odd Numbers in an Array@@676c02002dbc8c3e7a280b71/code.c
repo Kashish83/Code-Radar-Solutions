@@ -9,7 +9,7 @@ int main(){
     int even=0;
     int odd=0;
     for(j=0;j<N; j++){
-        if(a[i]%2==0){
+        if(i%2==0){
             even++;
         }
         else{

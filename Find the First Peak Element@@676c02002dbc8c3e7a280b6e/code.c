@@ -11,14 +11,13 @@ int main(){
     }if(a[0]>a[1]){
         printf("%d\n",a[0]);
     }
-    for(int j=1; j<a[i]; j++){
-        if(a[i]>a[i-1]){
-            if(a[i]>a[i+1]){
-                printf("%d\n",a[i]);  
-         
-           }   
-        }     
+    for (int i = 1; i < N - 1; i++) {
+        if (a[i] > a[i - 1] && a[i] > a[i + 1]) {
+            printf("%d\n", a[i]);
+        }
     }
+
+    
     if(a[N-1]>a[N-2]){
        printf("%d \n",a[N-1]);
     }

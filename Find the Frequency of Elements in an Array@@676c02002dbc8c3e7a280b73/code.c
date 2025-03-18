@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int N,i,g;
+    int N,i,g=0;
     scanf("%d",&N);
     int a[N];
     for(int i=0; i<N; i++){
@@ -13,6 +13,8 @@ int main(){
         }else{
             key++;
         }
+        printf("%d %d",&N &g)
     }
+    
     return 0;
 }

@@ -15,7 +15,7 @@ int main(){
     }
     return sum;
     for(int i=0; i<N; i++){
-        printf("%d"a[i],sum);
+        printf("%d %d"a[i],sum);
     }
     return 0;
     

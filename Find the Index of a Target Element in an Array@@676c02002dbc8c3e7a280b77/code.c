@@ -9,12 +9,11 @@ int main(){
     scanf("%d",&K);
     for(int i=0;i<N;i++){
     if(K==a[i]){
-        return i;
-    }else{
-        return -1;
+        printf("%d",i);
+        return 0;
     }
     }
-    printf("%d",a[i]);
+    printf("-1");
     return 0;
     
 

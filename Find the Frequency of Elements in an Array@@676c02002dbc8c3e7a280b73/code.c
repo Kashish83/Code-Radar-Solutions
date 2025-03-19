@@ -13,7 +13,7 @@ int main(){
         }else{
             key++;
         }
-        printf("%d %d",N g);
+        printf("%d %d",N, g);
     }
     
     return 0;

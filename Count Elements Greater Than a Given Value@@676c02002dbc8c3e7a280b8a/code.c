@@ -10,10 +10,11 @@ int main(){
     for(int i=0; i<N; i++){
         if(k<a[i]){
             count++;
-            printf("%d",count);
+            
         }
         
     }
+    printf("%d/n",count);
     
     return 0;
 }

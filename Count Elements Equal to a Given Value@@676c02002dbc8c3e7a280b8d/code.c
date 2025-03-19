@@ -1,15 +1,14 @@
 #include<stdio.h>
 int main(){
-    int N,key,count=0;
-    
+    int N,K,count=0;
     scanf("%d",&N);
-    scanf(" %d",&key);
+    scanf("%d",&K);
     int a[N];
-    for(int i=0; i<N;i++){
+    for(int i=0; i<N; i++){
         scanf("%d",&a[i]);
     }
-    for(int i=0; i<N; i++){
-        if(key==a[i]){
+    for(int i=0;i<N; i++){
+        if(K==a[i]){
             count++;
         }
     }

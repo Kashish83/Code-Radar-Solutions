@@ -10,9 +10,12 @@ int main(){
     for(int i=0;i<N;i++){
     if(K==a[i]){
         return i;
+    }else{
+        return -1;
     }
     }
     printf("%d",i);
+    return 0;
     
 
 }

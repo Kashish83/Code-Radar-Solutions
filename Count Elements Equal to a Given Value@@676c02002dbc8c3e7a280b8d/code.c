@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int N,k,count=0;
+    int N,key,count=0;
     
     scanf("%d",&N);
     scanf(" %d",&k);

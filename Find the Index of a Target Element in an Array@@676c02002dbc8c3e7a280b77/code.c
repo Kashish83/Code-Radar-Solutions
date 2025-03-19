@@ -14,7 +14,7 @@ int main(){
         return -1;
     }
     }
-    printf("%d",i);
+    printf("%d",a[i]);
     return 0;
     
 

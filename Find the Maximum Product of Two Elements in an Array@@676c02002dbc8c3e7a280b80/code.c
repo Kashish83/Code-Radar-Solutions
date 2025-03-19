@@ -11,11 +11,11 @@ int main(){
       if(g>max){
         max=g;
       }
-    
+    }
         
         printf("%d\n",max);
         
-    }
+
    
     return 0;
 

@@ -8,7 +8,7 @@ int main(){
     }
     for(int i=0;i<N;i++){
         g=a[i]*a[i+1];
-        max==g;
+        g==max;
     
         
         printf("%d",max);

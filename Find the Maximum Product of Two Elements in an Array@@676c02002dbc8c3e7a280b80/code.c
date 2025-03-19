@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int N,g,max=0;
+    int N,g,max;
     scanf("%d",&N);
     int a[N];
     for(int i=0;i<N;i++){
@@ -14,9 +14,7 @@ int main(){
     }
         
         printf("%d\n",max);
-        
-
-   
+    
     return 0;
 
 }

@@ -23,7 +23,7 @@ int main(){
     
     if(a[N-1]>a[N-2]){
        printf("%d \n",a[N-1]);
-    
+    return 0;
     }
     printf("-1");
     

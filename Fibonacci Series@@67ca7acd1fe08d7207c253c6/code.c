@@ -5,5 +5,5 @@
     }
 int main(){
     scanf("%d",&n);
-    printf("%d",fib(n));
+    printf("%d",fibn(n));
 }

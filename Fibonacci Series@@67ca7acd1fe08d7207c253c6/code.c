@@ -1,9 +1,9 @@
 #include<stdio.h>
     int fib(int n){
-        fibn=n*(n-1);
-        return fibn;
+        fib=n*(n-1);
+        return fib;
     }
 int main(){
     scanf("%d",&n);
-    printf("%d",fibn(n));
+    printf("%d",fib(n));
 }

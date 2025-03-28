@@ -1,9 +1,16 @@
 #include<stdio.h>
     int fib(int n){
-        fib=n*(n-1);
-        return fib;
+        if(n==0){
+            return 0;
+        }
+        if(n==1){
+            return 0;
+        }
+        return fib(n-1)+fib(n-2);
     }
 int main(){
+    int n;
     scanf("%d",&n);
     printf("%d",fib(n));
+    return 0;
 }

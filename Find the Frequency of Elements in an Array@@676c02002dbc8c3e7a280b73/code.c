@@ -10,8 +10,6 @@ int main(){
     for(int i=1; i<=N; i++){
         if(a[i]==key){
             g++;
-        }else{
-            key++;
         }
         printf("%d %d",N, g);
     }

@@ -2,10 +2,10 @@
 int main(){
     int N,i,j;
     scanf("%d",&N);
-    for(int i=0; i<N; i++){
-        for(int j=0;j<=N; j++)
+    for(int i=1; i<N; i++){
+        for(int j=1;j<=N; j++)
         {
-         if(i==0 || i==N || j==0 || j==N){
+         if(i==1 || i==N || j==1 || j==N){
             printf("*");
          }else{
             printf(" ");

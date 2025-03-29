@@ -2,7 +2,7 @@
 int main(){
     int N,i;
     for(int i=1; i<=N; i++){
-        for(int j=0; j<N-i; j++){
+        for(int j=0; j<=N-i; j++){
             printf(" ");
         }
         for(int j=1;j<=i;j++){

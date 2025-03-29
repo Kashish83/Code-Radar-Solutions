@@ -6,7 +6,7 @@ int main() {
         printf("%d X %d = %d",N,i,N*i);
         
     }
-    print("\n");
+    printf("\n");
 
     return 0;
 }

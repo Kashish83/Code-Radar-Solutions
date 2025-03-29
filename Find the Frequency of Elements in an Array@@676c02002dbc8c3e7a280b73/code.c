@@ -7,7 +7,7 @@ int main(){
         scanf("%d",&a[i]);
     }
     int key=a[0];
-    for(int i=0; i<N; i++){
+    for(int i=1; i=<N; i++){
         if(a[i]==key){
             g++;
         }else{

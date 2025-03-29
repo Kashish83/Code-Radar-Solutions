@@ -18,7 +18,7 @@ int main(){
             c=a[i];
         }
         break;
-        return 0;
+       
     }
 
     

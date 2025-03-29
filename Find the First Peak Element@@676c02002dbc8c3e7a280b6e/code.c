@@ -17,7 +17,7 @@ int main(){
         if (a[i] > a[i - 1] && a[i] > a[i + 1]) {
             g++;
             c=a[i];
-             break;
+            break;
         }
         
        
@@ -25,9 +25,10 @@ int main(){
 
     
     if(g>0){
-       printf("%d \n",a[i]);
-    }else{
-    printf("-1");
+       printf("%d \n",c);
+    }
+    else{
+       printf("-1");
     }
     
     return 0;

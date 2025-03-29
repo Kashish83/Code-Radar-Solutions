@@ -11,7 +11,7 @@ int main(){
         }
         for(int k=i-1; k>=1; k--){
             printf("%d",k);
-        }w
+        }
          printf("\n");
     }
    

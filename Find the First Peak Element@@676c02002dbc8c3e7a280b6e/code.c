@@ -7,10 +7,10 @@ int main(){
         scanf("%d",&a[i]);
     }
     if(i==0){
-        a[i-1]==a[n-1];
+        a[i-1]==a[N-1];
     }
     if(i==n-1){
-        a[i+1]==a[n+1];
+        a[i+1]==a[N+1];
     }
     for (int i = 1; i < N; i++) {
         if (a[i] > a[i - 1] && a[i] > a[i + 1]) {

@@ -4,7 +4,9 @@ int main() {
     scanf("%d",&N);
     for(int i = 1; i <= 10; i++){
         printf("%d X %d = %d",N,i,N*i);
-        printf("\n");
+        if(i<9){
+            printf("\n");
+        }
     }
     
 

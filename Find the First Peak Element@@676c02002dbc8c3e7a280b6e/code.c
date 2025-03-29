@@ -12,7 +12,7 @@ int main(){
     if(i==N-1){
         a[i+1]==a[N];
     }
-    for (int i = 1; i < N; i++) {
+    for (int i = 1; i <= N; i++) {
         if (a[i] > a[i - 1] && a[i] > a[i + 1]) {
             g++;
             c=a[i];

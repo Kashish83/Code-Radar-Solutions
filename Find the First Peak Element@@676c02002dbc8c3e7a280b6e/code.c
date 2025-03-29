@@ -16,8 +16,9 @@ int main(){
         if (a[i] > a[i - 1] && a[i] > a[i + 1]) {
             g++;
             c=a[i];
-            break
+             break;
         }
+        
        
     }
 

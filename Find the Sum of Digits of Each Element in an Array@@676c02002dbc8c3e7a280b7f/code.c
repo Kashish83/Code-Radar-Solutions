@@ -21,7 +21,7 @@ int main() {
     // For each element in the array, calculate the sum of its digits
     for (int i = 0; i < N; i++) {
         int sum = sum_of_digits(a[i]);
-        printf("%d\n", sum);
+        printf("%d", sum);
     }
 
     return 0;

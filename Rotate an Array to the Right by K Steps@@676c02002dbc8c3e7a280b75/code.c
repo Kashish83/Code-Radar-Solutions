@@ -10,13 +10,13 @@ int main() {
     int arr[n];
 
     // Input the array elements
-    printf("Enter %d elements: ", n);
+   
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
 
     // Input the number of rotations
-    printf("Enter the number of rotations (k): ");
+    
     scanf("%d", &k);
 
     // Normalize k to avoid unnecessary rotations
@@ -37,7 +37,7 @@ int main() {
     }
 
     // Print the rotated array
-    printf("Array after rotating to the right by %d steps: ", k);
+   ;
     for (int i = 0; i < n; i++) {
         printf("%d ", arr[i]);
     }

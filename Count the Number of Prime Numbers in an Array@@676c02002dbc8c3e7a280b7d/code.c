@@ -24,7 +24,7 @@ int main(){
         }
         if(isPrime){
             count++;
-            return count;
+         
         }
         printf("%d",count);
         return 0;

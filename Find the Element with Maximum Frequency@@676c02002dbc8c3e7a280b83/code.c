@@ -22,6 +22,6 @@ int main() {
     }
    }
    printf("%d\n",maxElement);
-   printf("%d\n",maxCount);
+//    printf("%d\n",maxCount);
    return 0;
 }

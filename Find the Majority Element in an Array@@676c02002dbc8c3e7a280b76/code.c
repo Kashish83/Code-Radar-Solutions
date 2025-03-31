@@ -25,5 +25,4 @@ int main(){
         return 0;
     }
 
-    // If no majority element found
-    printf("-1");
+    

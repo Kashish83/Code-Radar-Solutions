@@ -8,13 +8,20 @@ int main(){
         scanf("%d",&a[i]);
     }
     int max=a[0];
+    int second_largest= -1;
     for(int i=1; i<N; i++){
         if(a[i]>max){
-            if(a[i+1]>a[i]){
-                max=a[i+1];
-            }
+           second_largest = largest;
+           largest = a[i];
+        }else if(arr[i]>second_largest && a[i] !=largest){
+            second_largest = a[i];
         }
     }
-    printf("%d",max);
+    if(second_largest !=-1) {
+        printf( second_largest);
+    }else{
+        printf("-1");
+    }
+  
     return 0;
 }

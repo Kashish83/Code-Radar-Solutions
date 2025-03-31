@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int n,count;
+    int n;
     scanf("%d",&n);
     int a[n];
     for(int i=0; i<n; i++){
@@ -14,14 +14,15 @@ int main(){
                 count++;
             }
         }
-    }
         if (count > majority) {
-            printf("%d", count);
-            
-        }else{
-             // If no majority element found
-         printf("-1");
+            printf("%d", a[i]);
+            return 0;
         }
+    }
+        
+             // If no majority element found
+        printf("-1");
+        
         return 0;
     }
 

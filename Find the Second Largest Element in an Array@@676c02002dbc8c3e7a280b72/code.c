@@ -10,7 +10,7 @@ int main(){
     int largest=a[0];
     int second_largest= -1;
     for(int i=1; i<N; i++){
-        if(a[i]>max){
+        if(a[i]>largest){
            second_largest = largest;
            largest = a[i];
         }else if(arr[i]>second_largest && a[i] !=largest){

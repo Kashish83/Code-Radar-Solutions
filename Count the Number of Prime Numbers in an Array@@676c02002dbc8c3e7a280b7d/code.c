@@ -26,8 +26,9 @@ int main(){
             count++;
          
         }
-        printf("%d",count);
-        return 0;
+       
     }
+     printf("%d",count);
+        return 0;
    
 }

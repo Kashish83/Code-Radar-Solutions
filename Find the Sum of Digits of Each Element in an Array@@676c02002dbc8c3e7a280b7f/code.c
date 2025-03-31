@@ -2,6 +2,7 @@
 
 int sum_of_digits(int num) {
     int sum = 0;
+     num = (num < 0) ? -num : num;
     while (num > 0) {
         sum += num % 10;  // Add the last digit
         num /= 10;         // Remove the last digit

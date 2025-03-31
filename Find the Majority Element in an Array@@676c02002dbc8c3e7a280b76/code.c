@@ -16,7 +16,7 @@ int main(){
         }
     }
         if (count > majority) {
-            printf("%d", a[i]);
+            printf("%d", count);
             
         }else{
              // If no majority element found
